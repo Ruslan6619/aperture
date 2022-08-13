@@ -58,7 +58,7 @@ header nav ul li:last-of-type a{
     padding: 11px 20px;
 }
 .section-image{
-    background-color: #181818;
+    background-color: black;
     height: 100vh;
     background-size: cover;
     box-sizing: border-box;
@@ -138,4 +138,40 @@ header nav ul li:last-of-type a{
     line-height: 12px;
     color: #FFFFFF;
     margin-left: 16px;
+}
+.section-clients{
+    background-color: black;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.box-past-clients{
+    max-width: 1200px;
+    margin: auto;
+}
+.title-clients{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.text-companies{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 42px;
+}
+.box-image-company{
+    max-width: 1168px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
 }
