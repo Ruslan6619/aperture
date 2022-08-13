@@ -64,6 +64,7 @@ header nav ul li:last-of-type a{
     box-sizing: border-box;
     padding-top: 460px;
     background-image: url("../images/image1.jpg");
+    position: relative;
 }
 .box-studios{
     max-width: 600px;
@@ -97,4 +98,44 @@ header nav ul li:last-of-type a{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+}
+.fixed-information{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+.fixed-information li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/icon1.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 6px;
+}
+
+.fixed-information li:nth-child(2):before{
+    background-image: url("../images/icon2.svg");
+    width: 16px;
+}
+.fixed-information li:nth-child(3):before{
+    background-image: url("../images/icon3.svg");
+    width: 32px;
+}
+.fixed-information li:nth-child(4):before{
+    background-image: url("../images/icon5.svg");
+    width: 10px;
+}
+
+.fixed-information li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
 }
