@@ -148,6 +148,11 @@ header nav ul li:last-of-type a{
     max-width: 1200px;
     margin: auto;
 }
+.box-title{
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 40px;
+}
 .title-clients{
     font-family: 'Poppins';
     font-style: normal;
@@ -166,7 +171,7 @@ header nav ul li:last-of-type a{
     line-height: 30px;
     text-align: center;
     color: #C0C0C0;
-    padding-bottom: 42px;
+    /*padding-bottom: 42px;*/
 }
 .box-image-company{
     max-width: 1168px;
@@ -175,3 +180,65 @@ header nav ul li:last-of-type a{
     align-items: center;
     padding-top: 40px;
 }
+.section-need-help{
+    background-color: #000000;
+    padding-top: 120px;
+    padding-bottom: 108px;
+}
+.box-help-photo{
+    margin: auto;
+    max-width: 600px;
+}
+.title-help-photo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.text-we-are-here{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 22px;
+}
+.box-communication-button{
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+}
+.communication-button{
+    display: inline-flex;
+    background: #FFFFFF;
+    border-radius: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding: 9px 10px 13px 6px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.communication-button:before{
+    content: "";
+    background-color: black;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    border-radius: 13px;
+}
+
+
+
+
