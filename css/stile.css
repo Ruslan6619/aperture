@@ -62,14 +62,16 @@ header nav ul li:last-of-type a{
     height: 100vh;
     background-size: cover;
     box-sizing: border-box;
-    padding-top: 460px;
+    padding-bottom: 71px;
     background-image: url("../images/image1.jpg");
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .box-studios{
     max-width: 600px;
     text-align: center;
-    margin:auto;
 }
 .title-photographer{
     font-family: 'Poppins';
@@ -149,7 +151,6 @@ header nav ul li:last-of-type a{
     margin: auto;
 }
 .box-title{
-    max-width: 600px;
     margin: auto;
     padding-bottom: 40px;
 }
@@ -171,7 +172,6 @@ header nav ul li:last-of-type a{
     line-height: 30px;
     text-align: center;
     color: #C0C0C0;
-    /*padding-bottom: 42px;*/
 }
 .box-image-company{
     max-width: 1168px;
@@ -222,7 +222,7 @@ header nav ul li:last-of-type a{
     line-height: 20px;
     letter-spacing: 0.4px;
     color: #000000;
-    padding: 9px 10px 13px 6px;
+    padding: 5px 10px 5px 4px;
     text-decoration: none;
     align-items: center;
 }
@@ -236,6 +236,35 @@ header nav ul li:last-of-type a{
     border-radius: 13px;
 }
 
+.portfolio{
+    background-image: url("../images/IMAGE10.jpg");
+    min-height: 600px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.portfolio .sub-container{
+    max-width: 298px;
+    margin-right: 52px;
+}
+.portfolio .sub-container h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.portfolio .sub-container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
 
-
-
+}
