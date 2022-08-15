@@ -209,11 +209,7 @@ header nav ul li:last-of-type a{
     color: #C0C0C0;
     padding-bottom: 22px;
 }
-.box-communication-button{
-    margin: auto;
-    max-width: 600px;
-    text-align: center;
-}
+
 .communication-button{
     display: inline-flex;
     background: #FFFFFF;
@@ -227,6 +223,7 @@ header nav ul li:last-of-type a{
     color: #000000;
     padding: 9px 10px 13px 6px;
     text-decoration: none;
+    margin-left: 223px;
     align-items: center;
 }
 
