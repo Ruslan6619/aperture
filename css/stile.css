@@ -188,6 +188,7 @@ header nav ul li:last-of-type a{
 .box-help-photo{
     margin: auto;
     max-width: 600px;
+    text-align: center;
 }
 .title-help-photo{
     font-family: 'Poppins';
@@ -223,7 +224,6 @@ header nav ul li:last-of-type a{
     color: #000000;
     padding: 9px 10px 13px 6px;
     text-decoration: none;
-    margin-left: 223px;
     align-items: center;
 }
 
