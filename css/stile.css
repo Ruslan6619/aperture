@@ -149,6 +149,7 @@ header nav ul li:last-of-type a{
 .box-past-clients{
     max-width: 1200px;
     margin: auto;
+    text-align: center;
 }
 .box-title{
     margin: auto;
@@ -187,7 +188,6 @@ header nav ul li:last-of-type a{
 }
 .box-help-photo{
     margin: auto;
-    max-width: 600px;
     text-align: center;
 }
 .title-help-photo{
@@ -267,4 +267,17 @@ header nav ul li:last-of-type a{
     line-height: 20px;
     color: #C0C0C0;
 
+}
+.owl-dots .owl-dot span{
+    width: 20px;
+    height: 20px;
+    background: white;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.owl-dot.active{
+    opacity: 0.3;
 }
