@@ -228,8 +228,8 @@ h3{
     }
   }
 }
-.qwe{
-padding-bottom: 30px;
+.product{
+  padding-bottom: 30px;
   padding-left: 30px;
 }
 
@@ -403,8 +403,7 @@ padding-bottom: 30px;
     }
   }
 }
-.www{
-}
+
 .flex{
   display: flex;
   justify-content: center;
@@ -537,6 +536,89 @@ padding-bottom: 30px;
 
 }
 
+
+
+.tools{
+  background-color: black;
+  position: relative;
+  min-height: 540px;
+}
+.box-tools{
+  max-width: 600px;
+  margin-left: 60px;
+  padding-top: 113px;
+  h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+    padding-top: 60px;
+    padding-left: 40px;
+  }
+  h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-bottom: 14px;
+    padding-left: 40px;
+
+  }
+  p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+   padding-bottom: 20px;
+    padding-left: 40px;
+
+  }
+  a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    text-decoration: none;
+    margin-bottom: 40px;
+    padding: 5px 10px 5px 4px;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 40px;
+
+    &:before{
+      content: "";
+      width: 32px;
+      height: 32px;
+      background-color: black;
+      border-radius: 10px;
+      margin-right: 6px;
+    }
+  }
+}
+
+.image{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  min-height: 540px;
+  background-size: cover;
+  background-image: url("../images/image-photo.jpg");
+}
 
 
 .costa-rica{
